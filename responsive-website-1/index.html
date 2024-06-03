@@ -1,1 +1,43 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- importing the nunito font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Website Navbar</title>
+</head>
+<body>
+    <!-- container for navigation -->
+    <div class="nav-container">
+        <!-- navigation bar -->
+        <nav class="navbar">
+            <!-- logo -->
+            <h1 id="navbar-logo">LUXCO</h1>
+            <!-- mobile menu toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <!-- 3 bars representing the menu icon -->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- navigation links -->
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-links">Home</a></li>
+                <li><a href="#" class="nav-links">Services</a></li>
+                <li><a href="#" class="nav-links">About Us</a></li>
+                <li><a href="#" class="nav-links">Contact Us</a></li>
+                <!-- button for signing up -->
+                <li><a href="#" class="nav-links nav-links-button">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- javaScript file for interactivity -->
+    <script src="app.js"></script>
+</body>
+</html>
