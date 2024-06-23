@@ -1,9 +1,12 @@
+@import url('content.css');
+
 /* store variables */
 :root {
     --darkgray: #212329;
     --brightred: #F9423D;
     --white: #fff;
     --lightred: #f9433d;
+    --lightblue: #337AF1;
 }
 
 /* apply common styles to all elements */
